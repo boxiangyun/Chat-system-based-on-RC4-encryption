@@ -1,0 +1,20 @@
+﻿Build started 2018/7/2 20:48:12.
+     1>Project "C:\Users\lenovo\documents\visual studio 2013\Projects\2015218737TCPClient\2015218737TCPClient\2015218737TCPClient.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Users\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\2015218737TCPClient.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 2015218737TCPClientDlg.cpp
+         2015218737TCPClientDlg.cpp
+     1>c:\users\lenovo\documents\visual studio 2013\projects\2015218737tcpclient\2015218737tcpclient\2015218737tcpclientdlg.cpp(299): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+     1>c:\users\lenovo\documents\visual studio 2013\projects\2015218737tcpclient\2015218737tcpclient\2015218737tcpclientdlg.cpp(322): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\users\vc\include\string.h(118) : see declaration of 'strcat'
+       Link:
+         C:\Users\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\documents\visual studio 2013\Projects\2015218737TCPClient\Debug\2015218737TCPClient.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:C:\Users\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"C:\Users\lenovo\documents\visual studio 2013\Projects\2015218737TCPClient\Debug\2015218737TCPClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\documents\visual studio 2013\Projects\2015218737TCPClient\Debug\2015218737TCPClient.lib" /MACHINE:X86 Debug\2015218737TCPClient.res
+         Debug\2015218737TCPClient.obj
+         Debug\2015218737TCPClientDlg.obj
+         Debug\stdafx.obj
+         2015218737TCPClient.vcxproj -> C:\Users\lenovo\documents\visual studio 2013\Projects\2015218737TCPClient\Debug\2015218737TCPClient.exe
+     1>Done Building Project "C:\Users\lenovo\documents\visual studio 2013\Projects\2015218737TCPClient\2015218737TCPClient\2015218737TCPClient.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.05
