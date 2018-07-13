@@ -1,0 +1,22 @@
+﻿Build started 2018/7/2 20:46:26.
+     1>Project "C:\Users\lenovo\Documents\Visual Studio 2013\Projects\2015218737-CPServe\2015218737-CPServe\2015218737-CPServe.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Users\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\2015218737-CPServe.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "2015218737-CPServeDlg.cpp"
+         2015218737-CPServeDlg.cpp
+     1>c:\users\lenovo\documents\visual studio 2013\projects\2015218737-cpserve\2015218737-cpserve\2015218737-cpservedlg.cpp(162): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+     1>c:\users\lenovo\documents\visual studio 2013\projects\2015218737-cpserve\2015218737-cpserve\2015218737-cpservedlg.cpp(343): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+     1>c:\users\lenovo\documents\visual studio 2013\projects\2015218737-cpserve\2015218737-cpserve\2015218737-cpservedlg.cpp(365): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+       Link:
+         C:\Users\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\Documents\Visual Studio 2013\Projects\2015218737-CPServe\Debug\2015218737-CPServe.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:C:\Users\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"C:\Users\lenovo\Documents\Visual Studio 2013\Projects\2015218737-CPServe\Debug\2015218737-CPServe.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\Documents\Visual Studio 2013\Projects\2015218737-CPServe\Debug\2015218737-CPServe.lib" /MACHINE:X86 "Debug\2015218737-CPServe.res"
+         "Debug\2015218737-CPServe.obj"
+         "Debug\2015218737-CPServeDlg.obj"
+         Debug\stdafx.obj
+         2015218737-CPServe.vcxproj -> C:\Users\lenovo\Documents\Visual Studio 2013\Projects\2015218737-CPServe\Debug\2015218737-CPServe.exe
+     1>Done Building Project "C:\Users\lenovo\Documents\Visual Studio 2013\Projects\2015218737-CPServe\2015218737-CPServe\2015218737-CPServe.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.22
