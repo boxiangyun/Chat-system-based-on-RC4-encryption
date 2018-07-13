@@ -1,2 +1,1 @@
-# Hello-World
-my first code in github
+# Design of an encrypted network chat system based on RC4
